@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageHinh"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/txtname"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Name"
+        android:layout_toRightOf="@id/imageHinh"
+        android:textColor="#FB0808"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtname"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageHinh"
+        android:text="Mo ta"
+        android:textColor="#7A9AFA"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtmoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnadd"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/btntru"
+        android:padding="5dp"
+        android:text="6 $"
+        android:textColor="#F8043D"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnadd"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/boder" />
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btnadd"
+        android:id="@+id/btntru"
+        android:background="@drawable/boder"
+        android:layout_marginBottom="5dp"
+        />
+
+
+</RelativeLayout>
